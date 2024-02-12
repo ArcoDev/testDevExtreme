@@ -38,6 +38,9 @@ $(() => {
                     editorOptions: {
                         items: positions,
                         value: '',
+                        showClearButton: true,
+                        searchEnabled: true,
+                        searchTimeout: 0,
                     },
                 }],
             }, {
